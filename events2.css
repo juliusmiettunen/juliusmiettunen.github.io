@@ -1,0 +1,27 @@
+body {
+    font-family: 'Oxygen', sans-serif;
+}
+
+
+.calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.days, .dates {
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+    text-align: center;
+}
+
+.day, .date {
+    display: grid;
+    border: 1px solid #ccc;
+    padding: 7px;
+    background-color: #f2f2f2;
+}
+
+/* Add more CSS styling as needed */

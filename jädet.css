@@ -1,0 +1,8 @@
+.image-container {
+    display: inline-block; /* Display as inline blocks to appear side by side */
+    margin: 120px; /* Adjust margin as needed for spacing */
+}
+
+body {
+    font-family: 'Oxygen', sans-serif;
+}
