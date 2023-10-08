@@ -2,7 +2,12 @@ body {
     font-family: 'Oxygen', sans-serif;
 }
 
+.image-container {
+    display: inline-block;
 
+    margin: 120px;
+
+}
 .calendar {
     display: flex;
     flex-direction: column;

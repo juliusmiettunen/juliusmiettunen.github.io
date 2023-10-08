@@ -5,9 +5,11 @@
     padding: 0px;
 }
 
+
 body {
-    font-family: 'Exo', sans-serif;
+    font-family: 'Oxygen', sans-serif;
 }
+
 
 
 .context {
@@ -145,5 +147,4 @@ body {
         opacity: 0;
         border-radius: 50%;
     }
-
 }
