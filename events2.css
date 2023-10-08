@@ -24,4 +24,40 @@ body {
     background-color: #f2f2f2;
 }
 
-/* Add more CSS styling as needed */
+body {
+    background-image: url("https://t3.ftcdn.net/jpg/04/49/47/76/360_F_449477642_y5LSZHA53nm1IFOMxEiIqoOXeLw7s17z.jpg");
+  }
+
+  .calendar {
+    float: right;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr); /* 7 columns for days of the week */
+    grid-template-rows: auto; /* Automatically adjust row size */
+    gap: 5px; /* Gap between cells */
+}
+
+.day {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+}
+.marked-day {
+    background-color: #ffcc00; 
+    font-weight: bold; 
+}
+
+
+.container {
+    display: flex;
+  flex-direction: row;
+}
+
+
+.float-right {
+    float: right;
+  }
