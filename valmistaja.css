@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+  flex-direction: column;
+}
+
+body {
+    background-image: url("https://www.seriouseats.com/thmb/IVKJbDS5qw4alipJxjSXScKxwGA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__serious_eats__seriouseats.com__2019__08__20190709-caramel-swirl-banana-ice-cream-vicky-wasik-5-1500x1125-fe5db2fddfc84884b0c5d34b14b7ecd4.jpg");
+  }
