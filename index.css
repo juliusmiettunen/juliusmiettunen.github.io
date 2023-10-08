@@ -1,12 +1,13 @@
 .content {
-    float: right;
-    width: 50%; 
+  float: right;
+  width: 50%;
 }
 
 .content2 {
-    float: left;
-    width: 50%;
+  float: left;
+  width: 50%;
 }
+
 ol {
   list-style-type: none;
   margin: 0;
@@ -20,7 +21,7 @@ li a {
   color: rgb(255, 255, 255);
   text-align: center;
   padding: 14px 16px;
-  text-decoration:underline
+  text-decoration: underline
 }
 
 li a:hover {

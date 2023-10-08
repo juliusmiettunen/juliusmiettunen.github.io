@@ -9,7 +9,8 @@ body {
     align-items: end;
 }
 
-.days, .dates {
+.days,
+.dates {
 
     display: grid;
     grid-template-columns: repeat(7, 1fr);
@@ -17,7 +18,8 @@ body {
     text-align: center;
 }
 
-.day, .date {
+.day,
+.date {
     display: grid;
     border: 1px solid #ccc;
     padding: 7px;
@@ -26,14 +28,17 @@ body {
 
 body {
     background-image: url("https://t3.ftcdn.net/jpg/04/49/47/76/360_F_449477642_y5LSZHA53nm1IFOMxEiIqoOXeLw7s17z.jpg");
-  }
+}
 
-  .calendar {
+.calendar {
     float: right;
     display: grid;
-    grid-template-columns: repeat(7, 1fr); /* 7 columns for days of the week */
-    grid-template-rows: auto; /* Automatically adjust row size */
-    gap: 5px; /* Gap between cells */
+    grid-template-columns: repeat(7, 1fr);
+    /* 7 columns for days of the week */
+    grid-template-rows: auto;
+    /* Automatically adjust row size */
+    gap: 5px;
+    /* Gap between cells */
 }
 
 .day {
@@ -46,18 +51,19 @@ body {
     background-color: #333;
     color: white;
 }
+
 .marked-day {
-    background-color: #ffcc00; 
-    font-weight: bold; 
+    background-color: #ffcc00;
+    font-weight: bold;
 }
 
 
 .container {
     display: flex;
-  flex-direction: row;
+    flex-direction: row;
 }
 
 
 .float-right {
     float: right;
-  }
+}

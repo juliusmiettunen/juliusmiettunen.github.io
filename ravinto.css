@@ -1,6 +1,8 @@
 .image-container {
-    display: inline-block; /* Display as inline blocks to appear side by side */
-    margin: 120px; /* Adjust margin as needed for spacing */
+    display: inline-block;
+    /* Display as inline blocks to appear side by side */
+    margin: 120px;
+    /* Adjust margin as needed for spacing */
 }
 
 body {
@@ -10,8 +12,9 @@ body {
 
 .container {
     display: flex;
-  flex-direction: column;
+    flex-direction: column;
 }
+
 body {
     background-image: url("https://media.cnn.com/api/v1/images/stellar/prod/200422104158-20200422-travel-unusual-food-pairings.jpg?q=w_1600,h_900,x_0,y_0,c_fill");
-  }
+}

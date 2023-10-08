@@ -1,7 +1,8 @@
 .container {
-    display: flex;
+  display: flex;
   flex-direction: column;
 }
+
 body {
-    background-image: url("https://static.vecteezy.com/system/resources/previews/004/552/634/original/seamless-pattern-ice-cream-cone-cute-cartoon-style-background-with-cherry-and-heart-icon-design-used-for-fabric-textile-publication-illustration-free-vector.jpg");
-  }
+  background-image: url("https://static.vecteezy.com/system/resources/previews/004/552/634/original/seamless-pattern-ice-cream-cone-cute-cartoon-style-background-with-cherry-and-heart-icon-design-used-for-fabric-textile-publication-illustration-free-vector.jpg");
+}
